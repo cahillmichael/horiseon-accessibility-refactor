@@ -53,12 +53,10 @@ header nav ul li a {
     margin: 0 30px;
     font-size: 20px;
 }
-
-p {
-    font-size: 16px;
-}
 /* style header end */
 
+/* style hero start */
+/* use section semantic class*/
 .hero {
     height: 800px;
     width: 100%;
@@ -197,13 +195,16 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* style footer start */
+/* apply footer semantic class */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
+/* style footer end */
