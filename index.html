@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!-- head element contains meta data -->
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- changed title -->
     <title>Horiseon</title>
 </head>
 
 <body>
+    <!-- HEADER -->
+    <!-- added header semantic class -->
     <header>
         <h1>
+          <!-- made branding header clickable -->
           <a href="index.html">Hori<span class="seo">seo</span>n</a>
         </h1>
+        <!-- NAVIGATION -->
+        <!-- added nav semantic class -->
         <nav>
             <ul>
                 <li>
@@ -27,13 +34,19 @@
         </nav>
     </header>
     
+    <!-- HERO SECTION -->
+    <!-- added title in lieu of alt text due to limitations of background images in css -->
     <section class="hero" title="four people gathered at a conference table examining papers"></section>
 
-
+    <!-- CONTENT SECTION -->
+    <!-- added section semantic class -->
     <section class="content">
     <!--first content box-->
+        <!-- added article semantic class; added id to enable link from header -->
         <article id="search-engine-optimization" class="content-box">
+            <!-- added alt text to image -->
             <img src="./assets/images/search-engine-optimization.jpg" alt="a notebook displaying a sketch of an SEO idea cloud on a desk with a cup of coffee, pens, a laptop, and a magnifying glass on top" />
+            <!-- placed text in a div to consolidate properties in css -->
             <div class="content-text">
                 <h2>Search Engine Optimization</h2>
                 <p>
@@ -43,16 +56,19 @@
         </article>
     <!--second content box-->
         <article id="online-reputation-management" class="content-box">
+            <!-- text and img order inverted to permit float function to acheive desired styling -->
             <div class="content-text">
                 <h2>Online Reputation Management</h2>
                 <p>
                     The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
                 </p>
             </div>
+            <!-- added alt text to image -->
             <img src="./assets/images/online-reputation-management.jpg" alt="an open laptop showing a graph titled reputation and an upward trend" />
         </article>
     <!--third content box-->
         <article id="social-media-marketing" class="content-box">
+            <!-- added alt text to image -->
             <img src="./assets/images/social-media-marketing.jpg" alt="six people surround a table viewed from above, on which lay cutouts with the words Like, Share, Tweet, and Media" />
             <div class="content-text">
                 <h2>Social Media Marketing</h2>
@@ -62,32 +78,41 @@
             </div>
         </article>
     </section>
-     <div class="benefits">
-        <div class="benefit-lead">
+
+    <!-- BENEFITS SECTION -->
+    <section class="benefits">
+        <!-- consolidated 3 classes with identical styling into 1 -->
+        <div class="benefit">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <!-- added empty alt text for icon -->
+            <img src="./assets/images/lead-generation.png" alt=""/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="benefit">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <!-- added empty alt text for icon -->
+            <img src="./assets/images/brand-awareness.png" alt=""/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="benefit">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
+            <!-- added empty alt text for icon -->
+            <img src="./assets/images/cost-management.png" alt=""/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
+    </section>
 
+    <!-- FOOTER -->
+    <!-- added footer semantic class -->
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
+        <!-- changed p to div -->
         <div>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </div>
