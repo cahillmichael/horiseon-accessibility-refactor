@@ -37,7 +37,7 @@ header a {
     color: #ffffff;
 }
 
-/* use nav semantic class; apply float to list elements */
+/* use nav semantic element; apply float to list elements */
 header nav {
     float: right;
     margin: 15px 0;
@@ -56,7 +56,7 @@ header nav ul li a {
 /* style header end */
 
 /* style hero start */
-/* use section semantic class*/
+/* define section semantic element*/
 .hero {
     height: 800px;
     width: 100%;
@@ -65,6 +65,7 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
 }
+/* style hero end */
 
 /* style content start */
 /* content section defines box size for three content-box's*/
@@ -85,14 +86,14 @@ header nav ul li a {
 }
 
 /* img width determined by parent */
-/* float left used with ordering in .html to acheive expected arrangment */
+/* float left used with ordering elements in .html to acheive expected arrangment */
 .content-box img {
     width: 35%;
     padding: 45px;
     float: left;
 }
 
-/* text floats left in second box because .content-text div appears first */
+/* text floats left in second box because .content-text div appears first for that element*/
 .content-text {
     padding: 35px;
     float: left;
@@ -125,7 +126,7 @@ header nav ul li a {
     background-color: #2589bd;
 }
 
-/* consolidated selectors to a single select with consistent styling */
+/* consolidated selectors to a single selector with consistent styling */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -146,7 +147,7 @@ header nav ul li a {
 /* style benefits end */
 
 /* style footer start */
-/* apply footer semantic class */
+/* define footer semantic element */
 footer {
     padding: 30px;
     clear: both;
